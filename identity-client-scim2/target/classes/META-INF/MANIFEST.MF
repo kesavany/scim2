@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1521134934996
+Build-Jdk: 1.8.0_73
+Built-By: kesavan
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.wso2.identity.client.scim2
+Bundle-SymbolicName: org.wso2.identity.client.scim2
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.wso2.scim2.client;version="1.0.0";uses:="org.wso2.sc
+ im2.exception",org.wso2.scim2.exception;version="1.0.0",org.wso2.scim2.
+ operation;version="1.0.0";uses:="io.swagger.client,org.wso2.scim2.clien
+ t,org.wso2.scim2.exception",org.wso2.scim2.util;version="1.0.0",io.swag
+ ger.client;version="1.0.0";uses:="io.swagger.client.auth",io.swagger.cl
+ ient.api;version="1.0.0";uses:="io.swagger.client",io.swagger.client.au
+ th;version="1.0.0";uses:="io.swagger.client"
+Import-Package: io.swagger.client;version="1.5.15",io.swagger.client.api
+ ;version="1.5.15",io.swagger.client.auth;version="1.5.15"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Tool: Bnd-3.2.0.201605172007
